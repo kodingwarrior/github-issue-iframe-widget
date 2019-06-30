@@ -2,6 +2,9 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  router: {
+    base: '/github-issue-iframe-widget/'
+  },
   head: {
     title: 'github-issue-iframe-widget',
     meta: [
@@ -13,9 +16,6 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  router: {
-    base: '/github-issue-iframe-widget/'
-  }
   /*
   ** Customize the progress bar color
   */
