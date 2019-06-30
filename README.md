@@ -1,2 +1,23 @@
 # github-issue-iframe-widget
-원하는 형식대로 깃헙 issue 리스트(혹은 미리보기)를 표시해주는 iframe 위젯
+
+> iframe widget which displays list of issues in single page.
+
+## Build Setup
+
+``` bash
+# install dependencies
+$ npm install # Or yarn install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
