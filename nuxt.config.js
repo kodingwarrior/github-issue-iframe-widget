@@ -13,6 +13,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  router: {
+    base: '/github-issue-iframe-widget/'
+  }
   /*
   ** Customize the progress bar color
   */
