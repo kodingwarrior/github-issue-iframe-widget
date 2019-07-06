@@ -92,8 +92,11 @@ export default {
 </script>
 
 <style>
-.container {
+body {
   background-color: #E9EBEE;
+}
+
+.container {
   padding: 20px;
 }
 </style>
