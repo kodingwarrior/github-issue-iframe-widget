@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
-import IssueEntry from '~/components/IssueEntry.vue'
+import AppLogo from '@/components/AppLogo.vue'
+import IssueEntry from '@/components/IssueEntry.vue'
 import axios from 'axios'
 
 // from https://github.com/azu/github-issue-widget/blob/gh-pages/src/js/script.js 
@@ -93,32 +93,8 @@ export default {
 
 <style>
 .container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+  background-color: #E9EBEE;
+  padding: 20px;
 }
 </style>
 
